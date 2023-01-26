@@ -1,14 +1,17 @@
 import './App.css';
-import Button from '@mui/material/Button';
-import { Typography } from '@mui/material';
+
+import { Container } from '@mui/system';
+import { TextField } from '@mui/material';
+
 
 function App() {
   return (
     <div className="App">
-      <Button variant="text">Text</Button>
-      <Button variant="contained">Contained</Button>
-      <Button variant="outlined">Outlined</Button>
-      <Typography variant='h1' mt={2}>こんにちは</Typography>
+ 
+      <Container maxWidth="sm">
+        <TextField></TextField>
+      </Container>
+
     </div>
   );
 }
